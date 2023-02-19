@@ -54,4 +54,10 @@ Feature: Online Shopping on Swag Labs
 	Then home page should be loaded
 	
 	
+	@Second
+  Scenario: Verify if Item was successfully checkout
+	Given user add an item to cart and click the cart button
+	When user hit continue shopping button
+	Then home page should be loaded
+	
 
